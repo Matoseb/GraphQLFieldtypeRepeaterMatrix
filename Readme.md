@@ -24,10 +24,10 @@ For now, you have to paste the file [FieldtypeRepeaterMatrix.php](/FieldtypeRepe
 
 ---
 ### TODO
-- [ ] Repeater Depth/Indent.
 - [ ] Only allow possible fields per matrix types in the schema.
 - [ ] Add matrix type as names and not as integers. Easier to read.
 - [ ] Support for mutations / inputfields.
+- [ ] Repeater Depth/Indent -> Feature request to @dadish.
 
 ---
 ### Feel free to contribute!
