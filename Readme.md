@@ -7,7 +7,8 @@ FieldtypeRepeaterMatrix for ProcessGraphQL.
 ```
 
 ---
-This module adds partial GraphQL support for [ProFields FieldtypeRepeaterMatrix](https://processwire.com/store/pro-fields/repeater-matrix/). It is only intended for 
+This module adds partial GraphQL support for [ProFields FieldtypeRepeaterMatrix](https://processwire.com/store/pro-fields/repeater-matrix/).\
+It is only intended for 
 use with [ProcessGraphQL](https://github.com/dadish/ProcessGraphQL#processgraphql) module.
 
 ---
