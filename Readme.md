@@ -1,14 +1,31 @@
-GraphQLFieldtypeColorPicker
+GraphQLFieldtypeRepeaterMatrix
 =========================
-Not tested completely! Feel free to contribute
+FieldtypeRepeaterMatrix for ProcessGraphQL.
 
-This module adds GraphQL support for [FieldtypeColorPicker](https://processwire.com/modules/fieldtype-color-picker/). It is only intended for 
+```diff
+- Experimental and not complete! Use with caution
+```
+
+---
+This module adds partial GraphQL support for [ProFields FieldtypeRepeaterMatrix](https://processwire.com/store/pro-fields/repeater-matrix/). It is only intended for 
 use with [ProcessGraphQL](https://github.com/dadish/ProcessGraphQL#processgraphql) module.
 
+---
 ### Installation
-This module's files should be placed in /site/modules/GraphQLFieldtypeColorPicker/ 
-[How to install or uninstall modules](http://modules.processwire.com/install-uninstall/)
+```diff
+- Proper module coming soon hopefully
+```
+For now, you have to paste the file [FieldtypeRepeaterMatrix.php](/FieldtypeRepeaterMatrix.php) in your `/site/modules/ProcessGraphQL/src/Type/Fieldtype/`.
 
+---
 ### Usage
-Everything works behind the scenes for this module. After you installed it, FieldtypeColorPicker 
-fields will be available in your GraphQL api.
+![Example](/example.png)
+
+---
+### Todo
+- Only show possible fields per matrix types
+- Add matrix type names
+- Support for mutations
+---
+### Feel free to contribute!
+- [ProcessWire Forum - GraphQL for ProcessWire](https://processwire.com/talk/topic/15397-graphql-for-processwire/page/12/#comments)
