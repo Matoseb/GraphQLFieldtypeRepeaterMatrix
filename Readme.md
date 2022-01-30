@@ -23,9 +23,9 @@ For now, you have to paste the file [FieldtypeRepeaterMatrix.php](/FieldtypeRepe
 
 ---
 ### Todo
-- Only show possible fields per matrix types
-- Add matrix type names
-- Support for mutations
+- Only show possible fields per matrix types.
+- Add matrix type as names and not as number.
+- Support for mutations / inputfield.
 ---
 ### Feel free to contribute!
 - [ProcessWire Forum - GraphQL for ProcessWire](https://processwire.com/talk/topic/15397-graphql-for-processwire/page/12/#comments)
