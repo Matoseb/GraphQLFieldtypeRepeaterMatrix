@@ -1,0 +1,20 @@
+{
+  "name": "graphqlfieldtyperepeatermatrix",
+  "version": "0.0.1",
+  "description": "FieldtypeRepeaterMatrix for ProcessGraphQL",
+  "main": "index.js",
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "init": "^0.1.2",
+    "y": "^0.3.2"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.17.6",
+    "prettier": "^2.5.1"
+  },
+  "scripts": {
+    "prettier": "prettier"
+  },
+  "author": "Sébastien Matos <matos.sebastien@gmail.com> (http://ecal-mid.ch/)",
+  "license": "ISC"
+}
