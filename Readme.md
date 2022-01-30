@@ -22,7 +22,7 @@ For now, you have to paste the file [FieldtypeRepeaterMatrix.php](/FieldtypeRepe
 ![Example](/example.png)
 
 ---
-### Todo
+### TODO
 - Only show possible fields per matrix types.
 - Add matrix type as names and not as number.
 - Support for mutations / inputfield.
