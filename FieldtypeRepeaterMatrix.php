@@ -120,6 +120,15 @@ class RepeaterMatrixPageType
               'description' => 'Repeater Matrix Type ID',
               'type' => Type::int(),
             ];
+            //! overwrites page name field
+			      $fields[] = [
+              'name' => 'name',
+              'description' => 'Repeater Matrix Name',
+              'type' => Type::string(),
+			        'resolve' => function ($value) {
+                return $value->matrix("name");
+              }
+            ];
             return $fields;
           },
           'resolveType' => function ($value) use (&$type, $template) {
